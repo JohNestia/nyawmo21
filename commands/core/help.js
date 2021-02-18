@@ -15,8 +15,8 @@ module.exports = {
                     author: { name: 'Help pannel' },
                     footer: { text: `Nyawmo Premium "semua berhak menjadi premium"` },
                     fields: [
-                        { name: '<a:1_:804190876749398056> Bot', value: infos },
-                        { name: '<a:2_:804190876272033853> Music', value: music },
+                        { name: '<a:1_:811909074660491295> Bot', value: infos },
+                        { name: '<a:1_:811909074660491295> Music', value: music },
                     ],
                     timestamp: new Date(),
                 },

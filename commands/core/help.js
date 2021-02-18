@@ -11,7 +11,7 @@ module.exports = {
 
             message.channel.send({
                 embed: {
-                    color: 'ORANGE',
+                    color: '#fca5ca',
                     author: { name: 'Help pannel' },
                     footer: { text: 'This bot uses a Github project made by Zerio (ZerioDev/Music-bot)' },
                     fields: [

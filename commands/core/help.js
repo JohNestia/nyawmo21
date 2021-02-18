@@ -13,13 +13,12 @@ module.exports = {
                 embed: {
                     color: '#fca5ca',
                     author: { name: 'Help pannel' },
-                    footer: { text: 'This bot uses a Github project made by Zerio (ZerioDev/Music-bot)' },
+                    footer: { text: `Nyawmo Premium "semua berhak menjadi premium"` },
                     fields: [
                         { name: '<a:1_:804190876749398056> Bot', value: infos },
                         { name: '<a:2_:804190876272033853> Music', value: music },
                     ],
                     timestamp: new Date(),
-                    description: `To use filters, ${client.config.discord.prefix}filter (the filter). Example : ${client.config.discord.prefix}filter 8D.`,
                 },
             });
         } else {

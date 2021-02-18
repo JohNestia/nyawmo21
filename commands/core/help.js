@@ -17,7 +17,6 @@ module.exports = {
                     fields: [
                         { name: '<a:1_:804190876749398056> Bot', value: infos },
                         { name: '<a:2_:804190876272033853> Music', value: music },
-                        { name: '<a:3_:804190876746121336> Filters', value: client.filters.map((x) => '`' + x + '`').join(', ') },
                     ],
                     timestamp: new Date(),
                     description: `To use filters, ${client.config.discord.prefix}filter (the filter). Example : ${client.config.discord.prefix}filter 8D.`,

@@ -38,7 +38,7 @@ module.exports = {
                         { name: 'Utilisation', value: command.utilisation.replace('{prefix}', client.config.discord.prefix), inline: true },
                     ],
                     timestamp: new Date(),
-                    description: 'Jangan lupa join Nyawmo Premium \n[Donate](https://saweria.co/nyawmo) \n"semua berhak menjadi premium"',
+                    description: '**Jangan lupa join Nyawmo Premium** \n[**Donate**](https://saweria.co/nyawmo) \n_**"semua berhak menjadi premium"**_',
                 }
             });
         };
